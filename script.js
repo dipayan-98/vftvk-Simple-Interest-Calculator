@@ -3,9 +3,9 @@ function output()
         var principal=parseFloat(document.getElementById("Pr").value);
         var rate=parseFloat(document.getElementById("Rt").value);
         var time=parseFloat(document.getElementById("T").value);
-        amount=((principal*rate*time)/100)+principal;
+        interest=((principal*rate*time)/100)+interest;
         result=document.getElementById("amt");
-        result.innerHTML="Amount: "+amount;
+        result.innerHTML="Interest: "+amount;
         }
 function refresh()
 {
