@@ -10,5 +10,5 @@ function output()
 function refresh()
 {
     result=document.getElementById("amt");
-        result.innerHTML="Amount: ";
+        result.innerHTML="Interest: ";
 }
